@@ -11,13 +11,18 @@ import {
 export default function Home() {
   return (
     <div>
-     <SignedOut>
+     {/* <SignedOut>
             <SignInButton />
           </SignedOut>
           <SignedIn>
             <UserButton />
             <SignOutButton />
           </SignedIn>
+          
+          */}
+
+          <SignUpButton />
+          <SignOutButton />
     </div>
   );
 }
